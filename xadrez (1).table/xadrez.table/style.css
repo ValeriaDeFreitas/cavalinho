@@ -1,0 +1,54 @@
+.tabela{
+    border-color: rgb(53, 0, 97);
+    
+}
+#cavalinho{
+    position:relative;
+    animation: cavalinho 3s infinite;
+    width: 100px;
+    height: 100px ;
+}
+.branca{
+    background-color: azure;
+    width: 100px;
+    height: 100px;
+    
+}
+.preta{
+    background-color: black;
+    width: 100px;
+    height: 100px ;
+}
+
+/*@keyframes cavalinho{
+    0% { top: 0px; left: 000px; }
+    10% { top: 100px; left: 000px; }
+    10% { top: 200px; left: 000px; }
+    20% { top: 200px; left: 100px; }
+
+    25%{top: 400px; left:100px;}
+    30%{top:400px; left:200px;}
+    
+    35%{top: 600px; left: 200px;}
+    40%{top: 600px; left: 300px;}
+
+    45%{top:600px; left: 500px;}
+    50%{top: 700px; left:500px;}
+
+    55%{top: 700px; left:500px;}
+    60%{top:600px; left: 500px;}
+
+    65%{top: 600px; left: 300px;}
+    70%{top: 600px; left: 200px;}
+
+    75%{top:400px; left:200px;}
+    80%{top: 400px; left:100px;}
+
+    85% { top: 200px; left: 100px; }
+    90% { top: 200px; left: 000px; }
+
+    100% { top: 100px; left: 000px; }
+
+
+    
+  }*\
